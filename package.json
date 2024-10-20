@@ -11,8 +11,15 @@
 	"engines": {
 		"vscode": "^1.63.0"
 	},
-	"extensionPack": ["kah3vich.import-at-top", "kah3vich.nano-refactor", "kah3vich.holdesher"],
-	"categories": ["Extension Packs", "Snippets"],
+	"extensionPack": [
+		"kah3vich.import-at-top",
+		"kah3vich.nano-refactor",
+		"kah3vich.holdesher"
+	],
+	"categories": [
+		"Extension Packs",
+		"Snippets"
+	],
 	"preview": false,
 	"galleryBanner": {
 		"color": "#20232A",
@@ -66,7 +73,9 @@
 			}
 		]
 	},
-	"activationEvents": ["onCommand:nano-snippets"],
+	"activationEvents": [
+		"onCommand:nano-snippets"
+	],
 	"icon": "assets/logo.png",
 	"license": "MIT",
 	"author": {
@@ -114,7 +123,7 @@
 		"@types/node": "^22.7.7",
 		"@types/vscode": "^1.63.0",
 		"@vscode/test-electron": "^2.4.1",
-		"husky": "^9.1.6",
+		"husky": "^8.0.0",
 		"jest": "^29.7.0",
 		"ts-jest": "^29.2.5",
 		"ts-node": "^10.9.2",
