@@ -1,0 +1,14 @@
+// {
+// 	"🟩 NS: Jest-Test Base Test": {
+// 		"prefix": "jest-test",
+// 		"body": [
+// 			"test('${1:Name}', () => {",
+// 			"\texpect(${2:code}).${3:matchers}(${4:value});",
+// 			"});", 
+// 			"$0"
+// 		],
+// 		"description": "🟩 NS: Jest-Test Base Test"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

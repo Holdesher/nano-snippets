@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { consoleLog } from './utils/other';
+import { consoleLog } from './utils/log';
 
 export const activate = (context: vscode.ExtensionContext) => {
 	const disposable = vscode.commands.registerCommand('nano-snippets', function () {

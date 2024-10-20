@@ -1,12 +1,12 @@
 {
-    "✅Snippet: Python Message Print": {
+    "🟩 NS: Python Print — Message": {
         "prefix": "mpy",
         "body": [
-            "print('🌠 ${1:message}')",
+            "print('🟦 ${1:message}')",
             "$0"
         ],
-        "description": "✅Snippet: Python Message Print"
+        "description": "🟩 NS: Python Print — Message"
     }
 }
 
-//| 🔥 by kah3vich 🔥
+// Nano-Snippets — kah3vich

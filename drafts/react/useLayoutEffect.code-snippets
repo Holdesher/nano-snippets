@@ -1,0 +1,14 @@
+// {
+//     "🟩 NS: React Hook useLayoutEffect": {
+//         "prefix": "useLayoutEffect",
+//         "body": [ 
+//             "useLayoutEffect(() => {",
+//             "\t${1:code}",
+//             "}, [${2:dependencies}]);",
+//             "$0"
+//         ],
+//         "description": "🟩 NS: React Hook useLayoutEffect"
+//     }
+// }
+
+// Nano-Snippets — kah3vich

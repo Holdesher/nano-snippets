@@ -1,0 +1,14 @@
+{
+    "🟩 NS: useEffect -> console.log": {
+        "prefix": "uselog",
+        "body": [
+            "useEffect(() => {",
+            "\tconsole.log('🟩 ${1:element}    ', ${1:element})",
+            "}, [${1:element}])",
+            "$0"
+        ],
+        "description": "🟩 NS: useEffect -> console.log"
+    }
+}
+
+// Nano-Snippets — kah3vich

@@ -1,0 +1,9 @@
+// {
+// 	"🟩 NS: TypeScript Enum": {
+// 		"prefix": "enum",
+// 		"body": ["export enum E${1:Name} {", "    ${2:code}", "}", "$0"],
+// 		"description": "🟩 NS: TypeScript Enum"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

@@ -1,0 +1,12 @@
+{
+    "🟩 NS: Console Log — Error": {
+        "prefix": "elog",
+        "body": [
+            "console.error('🟥 ${1:element}: ', ${1:element})", 
+            "$0"
+        ],
+        "description": "🟩 NS: Console Log — Error"
+    }
+}
+
+// Nano-Snippets — kah3vich

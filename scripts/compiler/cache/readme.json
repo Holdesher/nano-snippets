@@ -1,0 +1,46 @@
+{
+	"config": [
+		{
+			"title": "javascript",
+			"snippets": [
+				{
+					"name": "dlog",
+					"description": "🟩 NS: Console Log — Debugger"
+				},
+				{
+					"name": "elog",
+					"description": "🟩 NS: Console Log — Error"
+				},
+				{
+					"name": "ilog",
+					"description": "🟩 NS: Console Log — Important"
+				},
+				{
+					"name": "log",
+					"description": "🟩 NS: Console Log — Base"
+				},
+				{
+					"name": "mlog",
+					"description": "🟩 NS: Console Log — Message"
+				},
+				{
+					"name": "wlog",
+					"description": "🟩 NS: Console Log — Warning"
+				},
+			],
+		},
+		{
+			"title": "python",
+			"snippets": [
+				{
+					"name": "mpy",
+					"description": "🟩 NS: Python Print — Message"
+				},
+				{
+					"name": "py",
+					"description": "🟩 NS: Python Print — Base"
+				},
+			],
+		},
+	]
+}

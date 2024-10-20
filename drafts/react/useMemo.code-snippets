@@ -1,0 +1,9 @@
+// {
+//     "🟩 NS: React Hook useMemo - memosations of meaning": {
+//         "prefix": "useMemo",
+//         "body": ["useMemo(() => ${1:code}, [${2:dependencies}])", "$0"],
+//         "description": "🟩 NS: React Hook useMemo - memosations of meaning"
+//     }
+// }
+
+// Nano-Snippets — kah3vich

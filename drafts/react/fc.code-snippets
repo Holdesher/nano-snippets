@@ -1,0 +1,16 @@
+// {
+// 	"🟩 NS: Functional component": {
+// 		"prefix": "fc",
+// 		"body": [
+// 			"import React from 'react'",
+// 			"",
+// 			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = ({ children }) => {",
+// 			"\treturn <>{children}</>",
+// 			"}",
+// 			"$0"
+// 		],
+// 		"description": "🟩 NS: Functional Component"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

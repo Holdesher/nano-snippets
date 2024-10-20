@@ -1,0 +1,21 @@
+// {
+// 	"🟩 NS: HTML Swiper": {
+// 		"prefix": "html-swiper",
+// 		"body": [
+// 			"<div class=\"swiper ${1:nameSlider}Swiper\">",
+// 			"\t<div class=\"swiper-wrapper\">",
+// 			"\t\t<div class=\"swiper-slide\">Slide</div>",
+// 			"\t</div>",
+// 			"\t<div class=\"swiper-controls\">",
+// 			"\t\t<div class=\"swiper-button-next\"></div>",
+// 			"\t\t<div class=\"swiper-button-prev\"></div>",
+// 			"\t\t<div class=\"swiper-pagination\"></div>",
+// 			"\t</div>",
+// 			"</div>",
+// 			"$0"
+// 		],
+// 		"description": "🟩 NS: HTML Swiper"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

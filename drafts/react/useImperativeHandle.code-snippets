@@ -1,0 +1,14 @@
+// {
+//     "🟩 NS: React Hook useImperativeHandle": {
+//         "prefix": "useImperativeHandle",
+//         "body": [ 
+//             "useImperativeHandle(${1:ref}, () => ({",
+//             "\t${2:code}",
+//             "}));",
+//             "$0"
+//         ],
+//         "description": "🟩 NS: React Hook useImperativeHandle"
+//     }
+// }
+
+// Nano-Snippets — kah3vich

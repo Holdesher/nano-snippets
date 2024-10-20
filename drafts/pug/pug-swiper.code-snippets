@@ -1,0 +1,18 @@
+// {
+// 	"🟩 NS: Pug Swiper": {
+// 		"prefix": "pug-swiper",
+// 		"body": [
+// 			".swiper.${1:nameSlider}Swiper",
+// 			"\t.swiper-wrapper",
+// 			"\t\t.swiper-slide Slide",
+// 			"\t.swiper-controls",
+// 			"\t\t.swiper-button-next",
+// 			"\t\t.swiper-button-prev",
+// 			"\t\t.swiper-pagination",
+// 			"$0"
+// 		],
+// 		"description": "🟩 NS: Pug Swiper"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

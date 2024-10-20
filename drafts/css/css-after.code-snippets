@@ -1,0 +1,18 @@
+// {
+//     "🟩 NS: CSS After": {
+//         "prefix": "css-after",
+//         "body": [
+//             ":after {",
+//             "\tcontent: '';",
+//             "\tposition: absolute;",
+//             "\ttop: ${1:top};",
+//             "\tleft: ${2:left};",
+//             "\t$0",
+//             "}",
+//             ""
+//         ],
+//         "description": "🟩 NS: CSS After"
+//     }
+// }
+
+// Nano-Snippets — kah3vich

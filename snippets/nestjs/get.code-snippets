@@ -1,9 +1,0 @@
-{
-	"✅Snippet: Get Method": {
-		"prefix": "get",
-		"body": ["@Get(${1:path})", "get${2:Name}(): ${3:type} {", "\treturn ${4:code}", "}", "$0"],
-		"description": "✅Snippet: Get Method"
-	}
-}
-
-//| 🔥 by kah3vich 🔥

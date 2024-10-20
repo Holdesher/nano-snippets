@@ -1,0 +1,14 @@
+// {
+//     "🟩 NS: useMount - Custom hook": {
+//         "prefix": "useMount",
+//         "body": [
+//             "useMount(() => {",
+//             "\t${1:code}",
+//             "})",
+//             "$0"
+//         ],
+//         "description": "🟩 NS: useMount - Custom hook"
+//     }
+// }
+
+// Nano-Snippets — kah3vich

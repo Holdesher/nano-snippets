@@ -1,12 +1,12 @@
 {
-    "✅Snippet: Python Print": {
+    "🟩 NS: Python Print — Base": {
         "prefix": "py",
         "body": [
-            "print('✅ ${1:element}    ', ${1:element})",
+            "print('🟩 ${1:element}: ', ${1:element})",
             "$0"
         ],
-        "description": "✅Snippet: Python Print"
+        "description": "🟩 NS: Python Print — Base"
     }
 }
 
-//| 🔥 by kah3vich 🔥
+// Nano-Snippets — kah3vich

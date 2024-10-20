@@ -1,0 +1,16 @@
+// {
+// 	"🟩 NS: Try Catch": {
+// 		"prefix": "try",
+// 		"body": [
+// 			"try {",
+// 			"\t${1:code}",
+// 			"} catch (e) {",
+// 			"\tconsole.error('Error', e)",
+// 			"}",
+// 			"$0"
+// 		],
+// 		"description": "🟩 NS: Try Catch"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

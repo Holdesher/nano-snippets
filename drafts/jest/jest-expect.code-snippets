@@ -1,0 +1,12 @@
+// {
+// 	"🟩 NS: Jest-Test Expect": {
+// 		"prefix": "jest-expect",
+// 		"body": [
+// 			"expect(${1:code}).${2:matchers}(${3:value});",
+// 			"$0"
+// 		],
+// 		"description": "🟩 NS: Jest-Test Expect"
+// 	}
+// }
+
+// Nano-Snippets — kah3vich

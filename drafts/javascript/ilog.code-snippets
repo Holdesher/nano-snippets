@@ -1,0 +1,12 @@
+{
+    "🟩 NS: Console Log — Important": {
+        "prefix": "ilog",
+        "body": [
+            "console.log('🟪 ${1:element}: ', ${1:element})", 
+            "$0"
+        ],
+        "description": "🟩 NS: Console Log — Important"
+    }
+}
+
+// Nano-Snippets — kah3vich
