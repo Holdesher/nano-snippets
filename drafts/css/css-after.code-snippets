@@ -1,5 +1,5 @@
 // {
-//     "🟩 NS: CSS After": {
+//     "🟩NS: CSS After": {
 //         "prefix": "css-after",
 //         "body": [
 //             ":after {",
@@ -11,7 +11,7 @@
 //             "}",
 //             ""
 //         ],
-//         "description": "🟩 NS: CSS After"
+//         "description": "🟩NS: CSS After"
 //     }
 // }
 

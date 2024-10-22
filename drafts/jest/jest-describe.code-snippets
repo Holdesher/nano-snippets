@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Jest-Test Describe": {
+// 	"🟩NS: Jest-Test Describe": {
 // 		"prefix": "jest-describe",
 // 		"body": [
 //             "describe('${1:Name}', () => {",
@@ -7,7 +7,7 @@
 //             "});",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Jest-Test Describe"
+// 		"description": "🟩NS: Jest-Test Describe"
 // 	}
 // }
 

@@ -1,11 +1,11 @@
 {
-    "🟩 NS: Console Log — Warning": {
+    "🟩JS: Console Log — Warning": {
         "prefix": "wlog",
         "body": [
             "console.warning('🟨 ${1:element}: ', ${1:element})", 
             "$0"
         ],
-        "description": "🟩 NS: Console Log — Warning"
+        "description": "🟩JS: Console Log — Warning"
     }
 }
 

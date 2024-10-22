@@ -119,49 +119,60 @@
 
 <img src="https://svg-readme.vercel.app/readme/svg?type=description&content=Snippets%20list:" width="100%" height="28" alt="title snippets" />
 
-
 <br/>
 
 ## <b>javascript</b>
 
 <br/>
 
-### `dlog` - 🟩 NS: Console Log — Debugger
+### `dlog` - 🟩JS: Console Log — Debugger
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/dlog.png" alt="code:dlog">
 </details>
 
-### `elog` - 🟩 NS: Console Log — Error
+### `elog` - 🟩JS: Console Log — Error
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/elog.png" alt="code:elog">
 </details>
 
-### `ilog` - 🟩 NS: Console Log — Important
+### `ilog` - 🟩JS: Console Log — Important
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/ilog.png" alt="code:ilog">
 </details>
 
-### `log` - 🟩 NS: Console Log — Base
+### `log` - 🟩JS: Console Log — Base
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/log.png" alt="code:log">
 </details>
 
-### `mlog` - 🟩 NS: Console Log — Message
+### `mlog` - 🟩JS: Console Log — Message
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/mlog.png" alt="code:mlog">
 </details>
 
-### `wlog` - 🟩 NS: Console Log — Warning
+### `try` - 🟩JS: Try Catch — Base
+
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/try.png" alt="code:try">
+</details>
+
+### `wlog` - 🟩JS: Console Log — Warning
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/javascript/wlog.png" alt="code:wlog">
 </details>
-
 
 <br/>
 
@@ -169,15 +180,36 @@
 
 <br/>
 
-### `mpy` - 🟩 NS: Python Print — Message
+### `mpy` - 🟩PY: Print — Message
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/python/mpy.png" alt="code:mpy">
 </details>
 
-### `py` - 🟩 NS: Python Print — Base
+### `try` - 🟩PY: Try Catch — Base
+
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/python/try.png" alt="code:try">
+</details>
+
+### `py` - 🟩PY: Print — Base
+
 <details>
 	<summary>Preview code</summary>
 	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/python/py.png" alt="code:py">
 </details>
 
+<br/>
+
+## <b>react</b>
+
+<br/>
+
+### `ulog` - 🟩REACT: Console Log — useEffect
+
+<details>
+	<summary>Preview code</summary>
+	<img src="https://raw.githubusercontent.com/kah3vich/Nano-Snippets/main/assets/code/react/ulog.png" alt="code:ulog">
+</details>

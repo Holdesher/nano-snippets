@@ -1,11 +1,11 @@
 {
-    "🟩 NS: Python Message Print": {
+    "🟩NS: Python Message Print": {
         "prefix": "mpy",
         "body": [
             "print('🌠 ${1:message}')",
             "$0"
         ],
-        "description": "🟩 NS: Python Message Print"
+        "description": "🟩NS: Python Message Print"
     }
 }
 

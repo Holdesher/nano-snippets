@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: React Hook useRef": {
+// 	"🟩NS: React Hook useRef": {
 // 		"prefix": "useRef",
 // 		"body": ["const ref${1:Name} = useRef(null)", "$0"],
-// 		"description": "🟩 NS: React Hook useRef"
+// 		"description": "🟩NS: React Hook useRef"
 // 	}
 // }
 

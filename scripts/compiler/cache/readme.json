@@ -5,27 +5,31 @@
 			"snippets": [
 				{
 					"name": "dlog",
-					"description": "🟩 NS: Console Log — Debugger"
+					"description": "🟩JS: Console Log — Debugger"
 				},
 				{
 					"name": "elog",
-					"description": "🟩 NS: Console Log — Error"
+					"description": "🟩JS: Console Log — Error"
 				},
 				{
 					"name": "ilog",
-					"description": "🟩 NS: Console Log — Important"
+					"description": "🟩JS: Console Log — Important"
 				},
 				{
 					"name": "log",
-					"description": "🟩 NS: Console Log — Base"
+					"description": "🟩JS: Console Log — Base"
 				},
 				{
 					"name": "mlog",
-					"description": "🟩 NS: Console Log — Message"
+					"description": "🟩JS: Console Log — Message"
+				},
+				{
+					"name": "try",
+					"description": "🟩JS: Try Catch — Base"
 				},
 				{
 					"name": "wlog",
-					"description": "🟩 NS: Console Log — Warning"
+					"description": "🟩JS: Console Log — Warning"
 				},
 			],
 		},
@@ -34,11 +38,24 @@
 			"snippets": [
 				{
 					"name": "mpy",
-					"description": "🟩 NS: Python Print — Message"
+					"description": "🟩PY: Print — Message"
+				},
+				{
+					"name": "try",
+					"description": "🟩PY: Try Catch — Base"
 				},
 				{
 					"name": "py",
-					"description": "🟩 NS: Python Print — Base"
+					"description": "🟩PY: Print — Base"
+				},
+			],
+		},
+		{
+			"title": "react",
+			"snippets": [
+				{
+					"name": "ulog",
+					"description": "🟩REACT: Console Log — useEffect"
 				},
 			],
 		},

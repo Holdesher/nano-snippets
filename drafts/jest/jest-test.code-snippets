@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Jest-Test Base Test": {
+// 	"🟩NS: Jest-Test Base Test": {
 // 		"prefix": "jest-test",
 // 		"body": [
 // 			"test('${1:Name}', () => {",
@@ -7,7 +7,7 @@
 // 			"});", 
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Jest-Test Base Test"
+// 		"description": "🟩NS: Jest-Test Base Test"
 // 	}
 // }
 

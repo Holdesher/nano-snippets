@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Memo Functional Component": {
+// 	"🟩NS: Memo Functional Component": {
 // 		"prefix": "mfc",
 // 		"body": [
 // 			"import React from 'react'",
@@ -11,7 +11,7 @@
 // 			"export const ${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}} = React.memo(_${1:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}})",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Memo Functional Component"
+// 		"description": "🟩NS: Memo Functional Component"
 // 	}
 // }
 

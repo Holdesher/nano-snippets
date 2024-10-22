@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: HTML Swiper": {
+// 	"🟩NS: HTML Swiper": {
 // 		"prefix": "html-swiper",
 // 		"body": [
 // 			"<div class=\"swiper ${1:nameSlider}Swiper\">",
@@ -14,7 +14,7 @@
 // 			"</div>",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: HTML Swiper"
+// 		"description": "🟩NS: HTML Swiper"
 // 	}
 // }
 

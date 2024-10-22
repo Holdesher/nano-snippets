@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: Jquery Remove Class": {
+// 	"🟩NS: Jquery Remove Class": {
 // 		"prefix": "jq-remove",
 // 		"body": ["$('${1:name}').removeClass('${2:class}');", "$0"],
-// 		"description": "🟩 NS: Jquery Remove Class"
+// 		"description": "🟩NS: Jquery Remove Class"
 // 	}
 // }
 

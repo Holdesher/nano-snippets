@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: CSS Base": {
+// 	"🟩NS: CSS Base": {
 // 		"prefix": "css-base",
 // 		"body": [
 // 			"*,",
@@ -104,7 +104,7 @@
 // 			"",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: CSS Base"
+// 		"description": "🟩NS: CSS Base"
 // 	}
 // }
 

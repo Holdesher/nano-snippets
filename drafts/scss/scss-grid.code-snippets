@@ -1,11 +1,11 @@
 // {
-// 	"🟩 NS: SCSS Grid Mixin": {
+// 	"🟩NS: SCSS Grid Mixin": {
 // 		"prefix": "scss-grid",
 // 		"body": [
 // 			"@include gridStyle(${1:auto}, ${2:auto}, ${3:0px});",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: SCSS Grid Mixin"
+// 		"description": "🟩NS: SCSS Grid Mixin"
 // 	}
 // }
 

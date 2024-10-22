@@ -1,11 +1,11 @@
 // {
-// 	"🟩 NS: SCSS Flex Mixin": {
+// 	"🟩NS: SCSS Flex Mixin": {
 // 		"prefix": "scss-flex",
 // 		"body": [
 // 			"@include flexStyle(${1:flex-start}, ${2:flex-start}, ${3:row}, ${4:0px});",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: SCSS Flex Mixin"
+// 		"description": "🟩NS: SCSS Flex Mixin"
 // 	}
 // }
 

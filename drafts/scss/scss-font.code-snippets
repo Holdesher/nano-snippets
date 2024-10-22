@@ -1,11 +1,11 @@
 // {
-// 	"🟩 NS: SCSS Font Mixin": {
+// 	"🟩NS: SCSS Font Mixin": {
 // 		"prefix": "scss-font",
 // 		"body": [
 // 			"@include fontStyle(${1:16px}, ${2:400}, ${3:20px}, ${4:#ffffff});",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: SCSS Font Mixin"
+// 		"description": "🟩NS: SCSS Font Mixin"
 // 	}
 // }
 

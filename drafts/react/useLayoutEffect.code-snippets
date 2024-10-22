@@ -1,5 +1,5 @@
 // {
-//     "🟩 NS: React Hook useLayoutEffect": {
+//     "🟩NS: React Hook useLayoutEffect": {
 //         "prefix": "useLayoutEffect",
 //         "body": [ 
 //             "useLayoutEffect(() => {",
@@ -7,7 +7,7 @@
 //             "}, [${2:dependencies}]);",
 //             "$0"
 //         ],
-//         "description": "🟩 NS: React Hook useLayoutEffect"
+//         "description": "🟩NS: React Hook useLayoutEffect"
 //     }
 // }
 

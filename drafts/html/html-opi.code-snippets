@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: HTML Optimization Image": {
+// 	"🟩NS: HTML Optimization Image": {
 // 		"prefix": "html-opi",
 // 		"body": [
 // 			"<picture>",
@@ -52,7 +52,7 @@
 // 			"</picture>",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: HTML Optimization Image"
+// 		"description": "🟩NS: HTML Optimization Image"
 // 	}
 // }
 

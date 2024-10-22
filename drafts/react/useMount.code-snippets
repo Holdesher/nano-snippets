@@ -1,5 +1,5 @@
 // {
-//     "🟩 NS: useMount - Custom hook": {
+//     "🟩NS: useMount - Custom hook": {
 //         "prefix": "useMount",
 //         "body": [
 //             "useMount(() => {",
@@ -7,7 +7,7 @@
 //             "})",
 //             "$0"
 //         ],
-//         "description": "🟩 NS: useMount - Custom hook"
+//         "description": "🟩NS: useMount - Custom hook"
 //     }
 // }
 

@@ -7,19 +7,12 @@
 		"type": "git",
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
-	"version": "0.0.33",
+	"version": "0.0.34",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
-	"extensionPack": [
-		"kah3vich.import-at-top",
-		"kah3vich.nano-refactor",
-		"kah3vich.holdesher"
-	],
-	"categories": [
-		"Extension Packs",
-		"Snippets"
-	],
+	"extensionPack": ["kah3vich.import-at-top", "kah3vich.nano-refactor", "kah3vich.holdesher"],
+	"categories": ["Extension Packs", "Snippets"],
 	"preview": false,
 	"galleryBanner": {
 		"color": "#20232A",
@@ -73,9 +66,7 @@
 			}
 		]
 	},
-	"activationEvents": [
-		"onCommand:nano-snippets"
-	],
+	"activationEvents": ["onCommand:nano-snippets"],
 	"icon": "assets/logo.png",
 	"license": "MIT",
 	"author": {
@@ -110,12 +101,13 @@
 	],
 	"homepage": "https://github.com/holdesher/Nano-Snippets/readme.md",
 	"scripts": {
-		"build": "yarn clear:out & yarn clear:vsix & vsce package",
-		"vscode:prepublish": "tsc -p ./",
-		"watcher": "tsc -watch -p ./",
+		"build": "yarn gen:readme & yarn clear:out & yarn clear:vsix & vsce package",
 		"test": "yarn clear:out & jest --config ./jest.config.js",
+		"watcher": "tsc -watch -p ./",
 		"clear:out": "rm -rf out/",
 		"clear:vsix": "rm -rf *.vsix",
+		"gen:readme": "bash ./scripts/base/readme.sh",
+		"vscode:prepublish": "tsc -p ./",
 		"prepare": "husky install"
 	},
 	"devDependencies": {

@@ -1,12 +1,12 @@
 // {
-// 	"🟩 NS: CSS Transparent Text": {
+// 	"🟩NS: CSS Transparent Text": {
 // 		"prefix": "css-tt",
 // 		"body": [
 // 			"-webkit-text-fill-color: transparent;",
 // 			"-webkit-text-stroke: ${1:size}px ${2:color};",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: CSS Transparent Text"
+// 		"description": "🟩NS: CSS Transparent Text"
 // 	}
 // }
 

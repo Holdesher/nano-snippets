@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: CSS Text Limit": {
+// 	"🟩NS: CSS Text Limit": {
 // 		"prefix": "css-tl",
 // 		"body": [
 // 			"overflow: hidden;",
@@ -9,7 +9,7 @@
 // 			"-webkit-box-orient: vertical;",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: CSS Text Limit"
+// 		"description": "🟩NS: CSS Text Limit"
 // 	}
 // }
 

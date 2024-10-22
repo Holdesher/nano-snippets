@@ -1,8 +1,8 @@
 // {
-//     "🟩 NS: React Hook useMemo - memosations of meaning": {
+//     "🟩NS: React Hook useMemo - memosations of meaning": {
 //         "prefix": "useMemo",
 //         "body": ["useMemo(() => ${1:code}, [${2:dependencies}])", "$0"],
-//         "description": "🟩 NS: React Hook useMemo - memosations of meaning"
+//         "description": "🟩NS: React Hook useMemo - memosations of meaning"
 //     }
 // }
 

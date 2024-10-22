@@ -1,11 +1,11 @@
 // {
-// 	"🟩 NS: SCSS Img Mixin": {
+// 	"🟩NS: SCSS Img Mixin": {
 // 		"prefix": "scss-img",
 // 		"body": [
 // 			"@include imgFullSize();",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: SCSS Img Mixin"
+// 		"description": "🟩NS: SCSS Img Mixin"
 // 	}
 // }
 

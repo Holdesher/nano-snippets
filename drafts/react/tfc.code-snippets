@@ -1,5 +1,5 @@
 // {
-//     "🟩 NS: TypeScript Functional Component": {
+//     "🟩NS: TypeScript Functional Component": {
 //         "prefix": "tfc",
 //         "body": [
 //             "import React from 'react'",
@@ -13,7 +13,7 @@
 //             "}",
 //             "$0"
 //         ],
-//         "description": "🟩 NS: TypeScript Functional Component"
+//         "description": "🟩NS: TypeScript Functional Component"
 //     }
 // }
 

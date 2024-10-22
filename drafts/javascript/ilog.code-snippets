@@ -1,11 +1,11 @@
 {
-    "🟩 NS: Console Log — Important": {
+    "🟩NS: Console Log — Important": {
         "prefix": "ilog",
         "body": [
             "console.log('🟪 ${1:element}: ', ${1:element})", 
             "$0"
         ],
-        "description": "🟩 NS: Console Log — Important"
+        "description": "🟩NS: Console Log — Important"
     }
 }
 

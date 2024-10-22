@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Pug Optimization Image": {
+// 	"🟩NS: Pug Optimization Image": {
 // 		"prefix": "pug-opi",
 // 		"body": [
 // 			"picture",
@@ -44,7 +44,7 @@
 // 			"\timg(src=\"${1:path}.png\" srcset=\"${1:path}.png 1x, ${1:path}@2x.png 2x\" alt=\"image\")",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Pug Optimization Image"
+// 		"description": "🟩NS: Pug Optimization Image"
 // 	}
 // }
 

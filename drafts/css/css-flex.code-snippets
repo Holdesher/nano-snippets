@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: CSS Flex Scheme": {
+// 	"🟩NS: CSS Flex Scheme": {
 // 		"prefix": "css-flex",
 // 		"body": [
 // 			"display: flex;",
@@ -10,7 +10,7 @@
 // 			"flex-wrap: ${5:no-wrap};",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: CSS Flex Scheme"
+// 		"description": "🟩NS: CSS Flex Scheme"
 // 	}
 // }
 

@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Jquery On": {
+// 	"🟩NS: Jquery On": {
 // 		"prefix": "jq-on",
 // 		"body": [
 // 			"$('${1:name}').on('${2:params}', function (e) {",
@@ -7,7 +7,7 @@
 // 			"});",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Jquery On"
+// 		"description": "🟩NS: Jquery On"
 // 	}
 // }
 

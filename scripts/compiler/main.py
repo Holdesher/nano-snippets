@@ -141,24 +141,24 @@ if __name__ == "__main__":
 
     try:
         create_config_snippets()
-        print('create_config_snippets - Done 🟩')
+        print('🟩 Done — create_config_snippets')
     except Exception as e:
-        print(f'🟥 create_config_snippets: {e}')
+        print(f'🟥 Error — create_config_snippets: {e}')
 
     # 2. Create config readme
 
     try:
         create_config_readme()
-        print('create_config_readme - Done 🟩')
+        print('🟩 Done — create_config_readme')
     except Exception as e:
-        print(f'🟥 create_config_readme: {e}')
+        print(f'🟥 Error — create_config_readme: {e}')
 
     # 3. Create finally readme file
 
     try:
         compiler_readme('./cache/readme.json', "../../readme.md")
-        print('compiler_readme - Done 🟩')
+        print('🟩 Done — compiler_readme')
     except Exception as e:
-        print(f'🟥 compiler_readme: {e}')
+        print(f'🟥 Error — mpiler_readme: {e}')
 
-print('\nDone 🟩')
+print('\n🟩 Done — Readme')

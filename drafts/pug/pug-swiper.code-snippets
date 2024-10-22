@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Pug Swiper": {
+// 	"🟩NS: Pug Swiper": {
 // 		"prefix": "pug-swiper",
 // 		"body": [
 // 			".swiper.${1:nameSlider}Swiper",
@@ -11,7 +11,7 @@
 // 			"\t\t.swiper-pagination",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Pug Swiper"
+// 		"description": "🟩NS: Pug Swiper"
 // 	}
 // }
 

@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: Pug Loop": {
+// 	"🟩NS: Pug Loop": {
 // 		"prefix": "pug-loop",
 // 		"body": ["each _, i in Array(${1:count})", "$0"],
-// 		"description": "🟩 NS: Pug Loop"
+// 		"description": "🟩NS: Pug Loop"
 // 	}
 // }
 

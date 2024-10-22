@@ -1,5 +1,5 @@
 // {
-//     "🟩 NS: React Hook useEffect": {
+//     "🟩NS: React Hook useEffect": {
 //         "prefix": "useEffect",
 //         "body": [ 
 //             "useEffect(() => {",
@@ -7,7 +7,7 @@
 //             "}, [${2:dependencies}]);",
 //             "$0"
 //         ],
-//         "description": "🟩 NS: React Hook useEffect"
+//         "description": "🟩NS: React Hook useEffect"
 //     }
 // }
 

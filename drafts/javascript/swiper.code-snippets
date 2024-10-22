@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: JavaScript Swiper": {
+// 	"🟩NS: JavaScript Swiper": {
 // 		"prefix": "js-swiper",
 // 		"body": [
 // 			"const ${1:nameSlider}Swiper = new Swiper(\".${1:nameSlider}Swiper\", {",
@@ -13,7 +13,7 @@
 // 			"});",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: JavaScript Swiper"
+// 		"description": "🟩NS: JavaScript Swiper"
 // 	}
 // }
 

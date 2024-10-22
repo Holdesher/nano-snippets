@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: HTML Start": {
+// 	"🟩NS: HTML Start": {
 // 		"prefix": "html-start",
 // 		"body": [
 // 			"<!DOCTYPE html>",
@@ -19,7 +19,7 @@
 //             "</html>",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: HTML Start"
+// 		"description": "🟩NS: HTML Start"
 // 	}
 // }
 

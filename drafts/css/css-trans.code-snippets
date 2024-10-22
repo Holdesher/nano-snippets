@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: CSS Transition": {
+// 	"🟩NS: CSS Transition": {
 // 		"prefix": "css-trans",
 // 		"body": ["transition: all ${1:time}s ${2:ease};", "$0"],
-// 		"description": "🟩 NS: CSS Transition"
+// 		"description": "🟩NS: CSS Transition"
 // 	}
 // }
 

@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Try Catch": {
+// 	"🟩NS: Try Catch": {
 // 		"prefix": "try",
 // 		"body": [
 // 			"try {",
@@ -9,7 +9,7 @@
 // 			"}",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Try Catch"
+// 		"description": "🟩NS: Try Catch"
 // 	}
 // }
 

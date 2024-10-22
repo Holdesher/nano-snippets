@@ -1,13 +1,13 @@
 {
-    "🟩NS: useEffect -> console.log": {
-        "prefix": "uselog",
+    "🟩REACT: Console Log — useEffect": {
+        "prefix": "ulog",
         "body": [
             "useEffect(() => {",
             "\tconsole.log('🟩 ${1:element}    ', ${1:element})",
             "}, [${1:element}])",
             "$0"
         ],
-        "description": "🟩NS: useEffect -> console.log"
+        "description": "🟩REACT: Console Log — useEffect"
     }
 }
 

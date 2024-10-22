@@ -1,12 +1,12 @@
 {
-    "🟩 NS: Console Log — Debugger": {
+    "🟩NS: Console Log — Debugger": {
         "prefix": "dlog",
         "body": [
             "debugger; // TODO: debugger", 
             "console.log('🟧 ${1:debugger}')", 
             "$0"
         ],
-        "description": "🟩 NS: Console Log — Debugger"
+        "description": "🟩NS: Console Log — Debugger"
     }
 }
 

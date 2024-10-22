@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: Post Method": {
+// 	"🟩NS: Post Method": {
 // 		"prefix": "post",
 // 		"body": ["@Post(${1:path})", "post${2:Name}(): ${3:type} {", "\treturn ${4:code}", "}", "$0"],
-// 		"description": "🟩 NS: Post Method"
+// 		"description": "🟩NS: Post Method"
 // 	}
 // }
 

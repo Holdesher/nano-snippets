@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: Functional component": {
+// 	"🟩NS: Functional component": {
 // 		"prefix": "fc",
 // 		"body": [
 // 			"import React from 'react'",
@@ -9,7 +9,7 @@
 // 			"}",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: Functional Component"
+// 		"description": "🟩NS: Functional Component"
 // 	}
 // }
 

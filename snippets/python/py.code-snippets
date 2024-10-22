@@ -1,11 +1,11 @@
 {
-    "🟩 NS: Python Print — Base": {
+    "🟩PY: Print — Base": {
         "prefix": "py",
         "body": [
             "print('🟩 ${1:element}: ', ${1:element})",
             "$0"
         ],
-        "description": "🟩 NS: Python Print — Base"
+        "description": "🟩PY: Print — Base"
     }
 }
 

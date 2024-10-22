@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: HTML Video": {
+// 	"🟩NS: HTML Video": {
 // 		"prefix": "html-video",
 // 		"body": [
 // 			"<video poster=\"${1:image}\" autoplay=\"autoplay\" loop=\"loop\" controls=\"controls\" tabindex=\"0\">",
@@ -9,7 +9,7 @@
 // 			"</video>",
 // 			"$0"
 // 		],
-// 		"description": "🟩 NS: HTML Video"
+// 		"description": "🟩NS: HTML Video"
 // 	}
 // }
 

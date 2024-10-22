@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: HTML Img": {
+// 	"🟩NS: HTML Img": {
 // 		"prefix": "html-img",
 // 		"body": ["<img src=\"${1:path}\" alt=\"${2:alt}\" />", "$0"],
-// 		"description": "🟩 NS: HTML Img"
+// 		"description": "🟩NS: HTML Img"
 // 	}
 // }
 

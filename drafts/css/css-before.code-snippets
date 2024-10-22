@@ -1,5 +1,5 @@
 // {
-// 	"🟩 NS: CSS Before": {
+// 	"🟩NS: CSS Before": {
 // 		"prefix": "css-before",
 // 		"body": [
 // 			":before {",
@@ -11,7 +11,7 @@
 // 			"}",
 // 			""
 // 		],
-// 		"description": "🟩 NS: CSS Before"
+// 		"description": "🟩NS: CSS Before"
 // 	}
 // }
 

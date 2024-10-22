@@ -1,11 +1,11 @@
 {
-    "🟩 NS: Console Log — Error": {
+    "🟩JS: Console Log — Error": {
         "prefix": "elog",
         "body": [
             "console.error('🟥 ${1:element}: ', ${1:element})", 
             "$0"
         ],
-        "description": "🟩 NS: Console Log — Error"
+        "description": "🟩JS: Console Log — Error"
     }
 }
 

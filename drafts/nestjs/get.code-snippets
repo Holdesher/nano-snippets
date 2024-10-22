@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: Get Method": {
+// 	"🟩NS: Get Method": {
 // 		"prefix": "get",
 // 		"body": ["@Get(${1:path})", "get${2:Name}(): ${3:type} {", "\treturn ${4:code}", "}", "$0"],
-// 		"description": "🟩 NS: Get Method"
+// 		"description": "🟩NS: Get Method"
 // 	}
 // }
 

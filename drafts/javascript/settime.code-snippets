@@ -1,5 +1,5 @@
 // {
-//     "🟩 NS: setTimeout": {
+//     "🟩NS: setTimeout": {
 //         "prefix": "settime",
 //         "body": [
 //             "setTimeout(() => {",
@@ -7,7 +7,7 @@
 //             "}, ${2:timeout});",
 //             "$0"
 //         ],
-//         "description": "🟩 NS: setTimeout"
+//         "description": "🟩NS: setTimeout"
 //     }
 // }
 

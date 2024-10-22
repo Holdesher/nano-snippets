@@ -1,8 +1,8 @@
 // {
-// 	"🟩 NS: TypeScript Interface ": {
+// 	"🟩NS: TypeScript Interface ": {
 // 		"prefix": "interface",
 // 		"body": ["export interface I${1:Name} {", "    ${2:code}", "}", "$0"],
-// 		"description": "🟩 NS: TypeScript Interface "
+// 		"description": "🟩NS: TypeScript Interface "
 // 	}
 // }
 
