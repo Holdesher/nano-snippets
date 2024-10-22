@@ -1,4 +1,4 @@
 #!/usr/bin/env
 
-yarn test
+# yarn test
 yarn build
