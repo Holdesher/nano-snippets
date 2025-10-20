@@ -1,9 +1,0 @@
-// {
-// 	"🟩NS: Jquery Ready": {
-// 		"prefix": "jq-ready",
-// 		"body": ["$(document).ready(function () {", "\t${1:code}", "});", "$0"],
-// 		"description": "🟩NS: Jquery Ready"
-// 	}
-// }
-
-// Nano-Snippets — kah3vich

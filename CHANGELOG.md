@@ -1,12 +1,4 @@
-## Changelog
-
-<br />
-
-> ### All notable changes to this project will be documented in this file. Dates are displayed in UTC.
-
-<br />
-
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
+# Changelog
 
 ### **CHANGELOG KEY**:
 
@@ -24,48 +16,22 @@
 📖 DOC:
 ```
 
-```bash
-🤖 TEST:
-```
-
 <br />
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
+### RELEASE: v0.0.28 - March 5, 2023
 
-<br />
+📦 FEAT: Init extension
 
-### RELEASE: v0.0.28-v0.0.1 - March 5, 2023
+### RELEASE: v0.0.32 - March 12, 2023
 
-<br />
+📦 FEAT: Readme & Package config & Snippet for NestJS
 
-> ### 📦 FEAT: Init extension
+### RELEASE: v0.0.33 - March 14 2023
 
-<br />
+📦 FEAT: snippets syntax for nestjs
+🐛 FIX: compiler for readme & main file snippets
 
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
+### RELEASE: v0.0.35 - October 20 2025
 
-<br />
-
-### RELEASE: v0.0.29-v0.0.32 - March 12, 2023
-
-<br />
-
-> ### 📦 FEAT: Readme & Package config & Snippet for NestJS
-
-<br />
-
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
-
-<br />
-
-### RELEASE: v0.0.33 - March -, 2023
-
-<br />
-
-> ### 📦 FEAT: snippets syntax for nestjs
-
-> ### 🐛 FIX: compiler for readme & main file snippets
-
-<br />
-
-<img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
+📦 FEAT: snippets TS, JS and React
+🐛 FIX: syntax snippets

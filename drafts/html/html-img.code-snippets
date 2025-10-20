@@ -1,9 +1,0 @@
-// {
-// 	"🟩NS: HTML Img": {
-// 		"prefix": "html-img",
-// 		"body": ["<img src=\"${1:path}\" alt=\"${2:alt}\" />", "$0"],
-// 		"description": "🟩NS: HTML Img"
-// 	}
-// }
-
-// Nano-Snippets — kah3vich

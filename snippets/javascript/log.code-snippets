@@ -1,12 +1,7 @@
 {
-    "🟩JS: Console Log — Base": {
-        "prefix": "log",
-        "body": [
-            "console.log('🟩 ${1:element}: ', ${1:element})", 
-            "$0"
-        ],
-        "description": "🟩JS: Console Log — Base"
-    }
+	"log": {
+		"prefix": "log",
+		"body": ["console.log('🟩 ${1:element}: ', ${1:element})", "$0"],
+		"description": "JS: Console Log — Base"
+	}
 }
-
-// Nano-Snippets — kah3vich

@@ -1,12 +1,7 @@
 {
-    "🟩PY: Print — Message": {
-        "prefix": "mpy",
-        "body": [
-            "print('🟦 ${1:message}')",
-            "$0"
-        ],
-        "description": "🟩PY: Print — Message"
-    }
+	"mpy": {
+		"prefix": "mpy",
+		"body": ["print('🟦 ${1:message}')", "$0"],
+		"description": "PY: Print — Message"
+	}
 }
-
-// Nano-Snippets — kah3vich

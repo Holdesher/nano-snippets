@@ -1,0 +1,7 @@
+{
+	"index": {
+		"prefix": "index",
+		"body": ["<div></div>", "$0"],
+		"description": "HTML: Scheme — Start"
+	}
+}

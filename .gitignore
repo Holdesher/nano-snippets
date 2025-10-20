@@ -1,14 +1,8 @@
+# build
 out
-node_modules
 *.vsix
+
+# dependencies
+node_modules/
 package-lock.json
 
-_.html
-_.pug
-_.css
-_.scss
-_.js
-_.ts
-_.jsx
-_.tsx
-_.py

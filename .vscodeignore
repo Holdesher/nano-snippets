@@ -1,9 +1,7 @@
-_.html
-_.pug
-_.css
-_.scss
-_.js
-_.ts
-_.jsx
-_.tsx
-_.py
+.vscode/
+node_modules/
+src/
+*.ts
+*.map
+tsconfig.json
+package-lock.json

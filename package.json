@@ -1,62 +1,56 @@
 {
 	"name": "nanosnippets",
-	"publisher": "kah3vich",
+	"publisher": "holdesher",
 	"displayName": "Nano Snippets",
 	"description": "Snippets for various technologies and languages, taking into account all modern trends and rules.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
+	"type": "module",
 	"version": "0.0.34",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
-	"extensionPack": ["kah3vich.import-at-top", "kah3vich.nano-refactor", "kah3vich.holdesher"],
-	"categories": ["Extension Packs", "Snippets"],
+	"extensionPack": [
+		"kah3vich.holdesher"
+	],
+	"categories": [
+		"Extension Packs",
+		"Snippets"
+	],
 	"preview": false,
 	"galleryBanner": {
 		"color": "#20232A",
 		"theme": "dark"
 	},
-	"main": "./out/src/extension.js",
-	"browser": "./out/src/extension.js",
+	"main": "./out/extension.js",
+	"browser": "./out/extension.js",
 	"contributes": {
 		"snippets": [
 			{
 				"language": "html",
-				"path": "./snippets/index.json"
-			},
-			{
-				"language": "jade",
-				"path": "./snippets/index.json"
-			},
-			{
-				"language": "css",
-				"path": "./snippets/index.json"
-			},
-			{
-				"language": "scss",
-				"path": "./snippets/index.json"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "./snippets/index.json"
+				"path": "./snippets/output/html.json"
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/index.json"
+				"path": "./snippets/output/javascript.json"
 			},
 			{
-				"language": "typescriptreact",
-				"path": "./snippets/index.json"
+				"language": "javascriptreact",
+				"path": "./snippets/output/javascript.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/index.json"
+				"path": "./snippets/output/typescript.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/output/typescript.json"
 			},
 			{
 				"language": "python",
-				"path": "./snippets/index.json"
+				"path": "./snippets/output/python.json"
 			}
 		],
 		"commands": [
@@ -66,20 +60,21 @@
 			}
 		]
 	},
-	"activationEvents": ["onCommand:nano-snippets"],
-	"icon": "assets/logo.png",
+	"activationEvents": [
+		"onCommand:nano-snippets"
+	],
+	"icon": "assets/img/preview.png",
 	"license": "MIT",
 	"author": {
-		"name": "kah3vich",
-		"url": "https://github.com/kah3vich",
+		"name": "holdesher",
+		"url": "https://github.com/holdesher",
 		"email": "holdesher@ro.ru"
 	},
 	"bugs": {
-		"url": "https://github.com/holdesher/Nano-Snippets/issues",
+		"url": "https://github.com/holdesher/nano-snippets/issues",
 		"email": "holdesher@ro.ru"
 	},
 	"keywords": [
-		"kah3vich",
 		"holdesher",
 		"nano",
 		"snippets",
@@ -88,36 +83,24 @@
 		"snippets",
 		"react",
 		"html",
-		"scss",
-		"style",
-		"css",
-		"pug",
 		"ts",
 		"js",
 		"typescript",
-		"javascript",
-		"sass",
-		"jquery"
+		"javascript"
 	],
-	"homepage": "https://github.com/holdesher/Nano-Snippets/readme.md",
+	"homepage": "https://github.com/holdesher/nano-snippets/readme.md",
 	"scripts": {
-		"build": "yarn gen:readme & yarn clear:out & yarn clear:vsix & vsce package",
-		"test": "yarn clear:out & jest --config ./jest.config.js",
-		"watcher": "tsc -watch -p ./",
-		"clear:out": "rm -rf out/",
-		"clear:vsix": "rm -rf *.vsix",
-		"gen:readme": "bash ./scripts/base/readme.sh",
-		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -p ./",
+		"watch": "tsc -w -p ./",
+		"vsix": "rm -rf *.vsix",
+		"snippets": "node ./scripts/snippets.js",
+		"vscode:prepublish": "npm run vsix && npm run snippets && npm run compile",
 		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"@types/jest": "^29.5.13",
 		"@types/node": "^22.7.7",
 		"@types/vscode": "^1.63.0",
-		"@vscode/test-electron": "^2.4.1",
 		"husky": "^8.0.0",
-		"jest": "^29.7.0",
-		"ts-jest": "^29.2.5",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.6.3"
 	},

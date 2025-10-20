@@ -1,8 +1,0 @@
-- [ ] Ссылка на раздел в readme.
-- [ ] Исправить css snippets.
-- [ ] Добавить для nestjs сниппеты ( Inj, meth, serv )
-- [ ] React snippests fix.
-- [ ] JS console.log ( new )
-- [ ] Swiper all params
-- [ ] console.count('name function') | console.table('obj') | console.time('name') & console.timeLog('name')
-- [ ] update all photo

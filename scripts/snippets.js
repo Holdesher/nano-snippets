@@ -1,0 +1,46 @@
+import * as fs from 'fs/promises';
+import * as path from 'path';
+
+const SNIPPETS_DIR = path.resolve('./snippets');
+const OUTPUT_DIR = path.resolve('./snippets/output');
+
+async function buildSnippets() {
+	try {
+		await fs.mkdir(OUTPUT_DIR, { recursive: true });
+
+		const languageDirs = await fs.readdir(SNIPPETS_DIR, { withFileTypes: true });
+
+		for (const langDir of languageDirs) {
+			if (!langDir.isDirectory()) continue;
+
+			const langName = langDir.name;
+			const langPath = path.join(SNIPPETS_DIR, langName);
+			const snippetsFiles = await getSnippetFiles(langPath);
+
+			if (snippetsFiles.length === 0) continue;
+
+			const mergedSnippets = {};
+
+			for (const filePath of snippetsFiles) {
+				const content = await fs.readFile(filePath, 'utf8');
+				const json = JSON.parse(content);
+				Object.assign(mergedSnippets, json);
+			}
+
+			const outputPath = path.join(OUTPUT_DIR, `${langName}.json`);
+			await fs.writeFile(outputPath, JSON.stringify(mergedSnippets, null, 2), 'utf8');
+		}
+	} catch (error) {
+		console.error('Error building snippets:', error);
+		process.exit(1);
+	}
+}
+
+async function getSnippetFiles(dirPath) {
+	const entries = await fs.readdir(dirPath, { withFileTypes: true });
+	return entries
+		.filter(entry => entry.isFile() && entry.name.endsWith('.code-snippets'))
+		.map(entry => path.join(dirPath, entry.name));
+}
+
+buildSnippets();

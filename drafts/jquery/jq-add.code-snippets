@@ -1,9 +1,0 @@
-// {
-// 	"🟩NS: Jquery Add Class": {
-// 		"prefix": "jq-add",
-// 		"body": ["$('${1:name}').addClass('${2:class}');", "$0"],
-// 		"description": "🟩NS: Jquery Add Class"
-// 	}
-// }
-
-// Nano-Snippets — kah3vich

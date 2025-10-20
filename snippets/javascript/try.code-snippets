@@ -1,17 +1,15 @@
 {
-	"🟩JS: Try Catch — Base": {
+	"try": {
 		"prefix": "try",
 		"body": [
 			"try {",
 			"\t${1:code}",
 			"} catch (err) {",
 			"\tconsole.error('🟥 Error: ', err)",
-            "\tthrow new Error('🟥 Error: ', err);",
+			"\tthrow new Error('🟥 Error: ', err);",
 			"}",
 			"$0"
 		],
-		"description": "🟩JS: Try Catch — Base"
+		"description": "JS: Try Catch — Base"
 	}
 }
-
-// Nano-Snippets — kah3vich

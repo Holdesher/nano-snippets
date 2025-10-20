@@ -1,21 +1,14 @@
 {
 	"compilerOptions": {
-		"target": "es6",
-		"types": ["node", "jest"],
-		"skipLibCheck": true,
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"strict": true,
-		"forceConsistentCasingInFileNames": true,
+		"target": "ES2020",
 		"module": "commonjs",
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"baseUrl": ".",
-		"noFallthroughCasesInSwitch": true,
-		"outDir": "out"
+		"outDir": "./out",
+		"rootDir": "./src",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
 	},
-	"compileOnSave": true,
-	"include": ["."],
-	"exclude": ["node_modules", ".vscode-test"]
+	"include": ["src"],
+	"exclude": ["node_modules"]
 }

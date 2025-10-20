@@ -1,9 +1,0 @@
-// {
-// 	"🟩NS: TypeScript Type": {
-// 		"prefix": "type",
-// 		"body": ["export type T${1:Name} = {", "    ${2:code}", "}", "$0"],
-// 		"description": "🟩NS: TypeScript Type"
-// 	}
-// }
-
-// Nano-Snippets — kah3vich

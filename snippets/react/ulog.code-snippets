@@ -1,14 +1,12 @@
 {
-    "🟩REACT: Console Log — useEffect": {
-        "prefix": "ulog",
-        "body": [
-            "useEffect(() => {",
-            "\tconsole.log('🟩 ${1:element}    ', ${1:element})",
-            "}, [${1:element}])",
-            "$0"
-        ],
-        "description": "🟩REACT: Console Log — useEffect"
-    }
+	"ulog": {
+		"prefix": "ulog",
+		"body": [
+			"useEffect(() => {",
+			"\tconsole.log('🟩 ${1:element}: ', ${1:element})",
+			"}, [${1:element}])",
+			"$0"
+		],
+		"description": "REACT: Console Log — useEffect"
+	}
 }
-
-// Nano-Snippets — kah3vich

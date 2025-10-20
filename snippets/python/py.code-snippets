@@ -1,12 +1,7 @@
 {
-    "🟩PY: Print — Base": {
-        "prefix": "py",
-        "body": [
-            "print('🟩 ${1:element}: ', ${1:element})",
-            "$0"
-        ],
-        "description": "🟩PY: Print — Base"
-    }
+	"py": {
+		"prefix": "py",
+		"body": ["print('🟩 ${1:element}: ', ${1:element})", "$0"],
+		"description": "PY: Print — Base"
+	}
 }
-
-// Nano-Snippets — kah3vich
