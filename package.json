@@ -8,7 +8,7 @@
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
 	"type": "module",
-	"version": "0.0.34",
+	"version": "0.0.35",
 	"engines": {
 		"vscode": "^1.73.0"
 	},
