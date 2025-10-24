@@ -10,8 +10,9 @@
 	"type": "module",
 	"version": "0.0.34",
 	"engines": {
-		"vscode": "^1.63.0"
+		"vscode": "^1.73.0"
 	},
+	"preview": false,
 	"extensionPack": [
 		"kah3vich.holdesher"
 	],
@@ -19,11 +20,36 @@
 		"Extension Packs",
 		"Snippets"
 	],
-	"preview": false,
 	"galleryBanner": {
 		"color": "#20232A",
 		"theme": "dark"
 	},
+	"icon": "assets/img/preview.png",
+	"license": "Apache-2.0",
+	"author": {
+		"name": "holdesher",
+		"url": "https://github.com/Holdesher",
+		"email": "holdesher@ro.ru"
+	},
+	"bugs": {
+		"url": "https://github.com/holdesher/nano-snippets/issues",
+		"email": "holdesher@ro.ru"
+	},
+	"keywords": [
+		"kah3vich",
+		"holdesher",
+		"nano",
+		"snippets",
+		"nanosnippets",
+		"snippet",
+		"snippets",
+		"react",
+		"html",
+		"ts",
+		"js",
+		"typescript",
+		"javascript"
+	],
 	"main": "./out/extension.js",
 	"browser": "./out/extension.js",
 	"contributes": {
@@ -63,48 +89,23 @@
 	"activationEvents": [
 		"onCommand:nano-snippets"
 	],
-	"icon": "assets/img/preview.png",
-	"license": "MIT",
-	"author": {
-		"name": "holdesher",
-		"url": "https://github.com/holdesher",
-		"email": "holdesher@ro.ru"
-	},
-	"bugs": {
-		"url": "https://github.com/holdesher/nano-snippets/issues",
-		"email": "holdesher@ro.ru"
-	},
-	"keywords": [
-		"holdesher",
-		"nano",
-		"snippets",
-		"nanosnippets",
-		"snippet",
-		"snippets",
-		"react",
-		"html",
-		"ts",
-		"js",
-		"typescript",
-		"javascript"
-	],
 	"homepage": "https://github.com/holdesher/nano-snippets/readme.md",
+	"dependencies": {
+		"vsce": "^2.15.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.7.7",
+		"@types/vscode": "^1.63.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	},
 	"scripts": {
 		"compile": "tsc -p ./",
 		"watch": "tsc -w -p ./",
 		"vsix": "rm -rf *.vsix",
 		"snippets": "node ./scripts/snippets.js",
 		"vscode:prepublish": "npm run vsix && npm run snippets && npm run compile",
-		"prepare": "husky install"
-	},
-	"devDependencies": {
-		"@types/node": "^22.7.7",
-		"@types/vscode": "^1.63.0",
-		"husky": "^8.0.0",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.6.3"
-	},
-	"dependencies": {
-		"vsce": "^2.15.0"
+		"build": "vsce package",
+		"prepare": "husky"
 	}
 }

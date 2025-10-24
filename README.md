@@ -30,9 +30,9 @@
 
 ### Links:
 
+- [VSIX](https://filext.com)
 - [License](./LICENSE)
 - [Changelog](./CHANGELOG.md)
 - [Marketplace](https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets)
 - [Contributing](./.github/CONTRIBUTING.md)
-- [VSIX](https://filext.com)
 - [Generate Snippets](https://snippet-generator.app)

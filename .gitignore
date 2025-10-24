@@ -1,5 +1,9 @@
+# ide
+.DS_Store
+**/.DS_Store
+
 # build
-out
+out/
 *.vsix
 
 # dependencies
