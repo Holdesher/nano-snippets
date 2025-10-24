@@ -1,7 +1,8 @@
 {
-	"dlog": {
+	"JS: Console Log — Debugger": {
 		"prefix": "dlog",
-		"body": ["debugger; // TODO: debugger", "console.log('🟧 ${1:debugger}')", "$0"],
-		"description": "JS: Console Log — Debugger"
+		"body": ["debugger; // TODO: debugger", "console.log(\"🟧 ${1:debugger}\")", "$0"],
+		"description": "JS: Console Log — Debugger",
+		"scope": "html,javascriptreact,javascript,typescriptreact,typescript"
 	}
 }

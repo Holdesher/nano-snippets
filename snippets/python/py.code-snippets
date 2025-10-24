@@ -1,7 +1,8 @@
 {
-	"py": {
+	"PY: Print": {
 		"prefix": "py",
-		"body": ["print('🟩 ${1:element}: ', ${1:element})", "$0"],
-		"description": "PY: Print — Base"
+		"body": ["print(\"🟩 ${1:element}: \", ${1:element})", "$0"],
+		"description": "PY: Print",
+		"scope": "python"
 	}
 }

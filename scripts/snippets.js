@@ -3,12 +3,15 @@ import * as path from 'path';
 
 const SNIPPETS_DIR = path.resolve('./snippets');
 const OUTPUT_DIR = path.resolve('./snippets/output');
+const OUTPUT_FILE = 'snippets.json';
 
 async function buildSnippets() {
 	try {
 		await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
 		const languageDirs = await fs.readdir(SNIPPETS_DIR, { withFileTypes: true });
+
+		const allSnippets = {};
 
 		for (const langDir of languageDirs) {
 			if (!langDir.isDirectory()) continue;
@@ -19,17 +22,17 @@ async function buildSnippets() {
 
 			if (snippetsFiles.length === 0) continue;
 
-			const mergedSnippets = {};
-
 			for (const filePath of snippetsFiles) {
 				const content = await fs.readFile(filePath, 'utf8');
 				const json = JSON.parse(content);
-				Object.assign(mergedSnippets, json);
-			}
 
-			const outputPath = path.join(OUTPUT_DIR, `${langName}.json`);
-			await fs.writeFile(outputPath, JSON.stringify(mergedSnippets, null, 2), 'utf8');
+				Object.assign(allSnippets, json);
+			}
 		}
+
+		const outputPath = path.join(OUTPUT_DIR, OUTPUT_FILE);
+		await fs.writeFile(outputPath, JSON.stringify(allSnippets, null, 2), 'utf8');
+		console.log(`Snippets successfully merged into: ${outputPath}`);
 	} catch (error) {
 		console.error('Error building snippets:', error);
 		process.exit(1);

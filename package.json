@@ -1,6 +1,6 @@
 {
 	"name": "nanosnippets",
-	"publisher": "holdesher",
+	"publisher": "kah3vich",
 	"displayName": "Nano Snippets",
 	"description": "Snippets for various technologies and languages, taking into account all modern trends and rules.",
 	"repository": {
@@ -8,7 +8,7 @@
 		"url": "https://github.com/holdesher/Nano-Snippets"
 	},
 	"type": "module",
-	"version": "0.0.35",
+	"version": "0.0.36",
 	"engines": {
 		"vscode": "^1.73.0"
 	},
@@ -27,8 +27,8 @@
 	"icon": "assets/img/preview.png",
 	"license": "Apache-2.0",
 	"author": {
-		"name": "holdesher",
-		"url": "https://github.com/Holdesher",
+		"name": "kah3vich",
+		"url": "https://github.com/holdesher",
 		"email": "holdesher@ro.ru"
 	},
 	"bugs": {
@@ -56,27 +56,27 @@
 		"snippets": [
 			{
 				"language": "html",
-				"path": "./snippets/output/html.json"
-			},
-			{
-				"language": "javascript",
-				"path": "./snippets/output/javascript.json"
+				"path": "./snippets/output/snippets.json"
 			},
 			{
 				"language": "javascriptreact",
-				"path": "./snippets/output/javascript.json"
+				"path": "./snippets/output/snippets.json"
 			},
 			{
-				"language": "typescript",
-				"path": "./snippets/output/typescript.json"
+				"language": "javascript",
+				"path": "./snippets/output/snippets.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/output/typescript.json"
+				"path": "./snippets/output/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/output/snippets.json"
 			},
 			{
 				"language": "python",
-				"path": "./snippets/output/python.json"
+				"path": "./snippets/output/snippets.json"
 			}
 		],
 		"commands": [

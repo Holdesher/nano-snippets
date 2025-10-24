@@ -1,12 +1,13 @@
 {
-	"ulog": {
+	"Console Log — useEffect": {
 		"prefix": "ulog",
 		"body": [
 			"useEffect(() => {",
-			"\tconsole.log('🟩 ${1:element}: ', ${1:element})",
+			"\tconsole.log(\"🟩 ${1:element}: \", ${1:element})",
 			"}, [${1:element}])",
 			"$0"
 		],
-		"description": "REACT: Console Log — useEffect"
+		"description": "REACT: Console Log — useEffect",
+		"scope": "javascriptreact,javascript,typescriptreact,typescript"
 	}
 }

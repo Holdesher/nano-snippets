@@ -1,7 +1,8 @@
 {
-	"elog": {
+	"JS: Console Log — Error": {
 		"prefix": "elog",
-		"body": ["console.error('🟥 ${1:element}: ', ${1:element})", "$0"],
-		"description": "JS: Console Log — Error"
+		"body": ["console.error(\"🟥 ${1:element}: \", ${1:element})", "$0"],
+		"description": "JS: Console Log — Error",
+		"scope": "html,javascriptreact,javascript,typescriptreact,typescript"
 	}
 }

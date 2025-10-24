@@ -1,15 +1,16 @@
 {
-	"try": {
+	"JS: Try Catch": {
 		"prefix": "try",
 		"body": [
 			"try {",
 			"\t${1:code}",
-			"} catch (err) {",
-			"\tconsole.error('🟥 Error: ', err)",
-			"\tthrow new Error('🟥 Error: ', err);",
+			"} catch (e) {",
+			"\tconsole.error(\"🟥 Error: \", e)",
+			"\tthrow new Error(e);",
 			"}",
 			"$0"
 		],
-		"description": "JS: Try Catch — Base"
+		"description": "JS: Try Catch",
+		"scope": "html,javascriptreact,javascript,typescriptreact,typescript"
 	}
 }

@@ -1,7 +1,8 @@
 {
-	"wlog": {
+	"JS: Console Log — Warning": {
 		"prefix": "wlog",
-		"body": ["console.warning('🟨 ${1:element}: ', ${1:element})", "$0"],
-		"description": "JS: Console Log — Warning"
+		"body": ["console.warning(\"🟨 ${1:element}: \", ${1:element})", "$0"],
+		"description": "JS: Console Log — Warning",
+		"scope": "html,javascriptreact,javascript,typescriptreact,typescript"
 	}
 }

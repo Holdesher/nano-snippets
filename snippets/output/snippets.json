@@ -1,0 +1,127 @@
+{
+  "HTML: DOCTYPE": {
+    "prefix": "doc",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"${1:ru}\" />",
+      "\t<head>",
+      "\t\t<meta charset=\"UTF-8\" />",
+      "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "\t\t<title>${2:Document}</title>",
+      "\t</head>",
+      "\t<body>",
+      "\t\t$0",
+      "\t</body>",
+      "</html>\n"
+    ],
+    "description": "HTML: DOCTYPE",
+    "scope": "html"
+  },
+  "JS: Console Log — Debugger": {
+    "prefix": "dlog",
+    "body": [
+      "debugger; // TODO: debugger",
+      "console.log(\"🟧 ${1:debugger}\")",
+      "$0"
+    ],
+    "description": "JS: Console Log — Debugger",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "JS: Console Log — Error": {
+    "prefix": "elog",
+    "body": [
+      "console.error(\"🟥 ${1:element}: \", ${1:element})",
+      "$0"
+    ],
+    "description": "JS: Console Log — Error",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "JS: Console Log — Important": {
+    "prefix": "ilog",
+    "body": [
+      "console.log(\"🟪 ${1:element}: \", ${1:element})",
+      "$0"
+    ],
+    "description": "JS: Console Log — Important",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "JS: Console Log": {
+    "prefix": "log",
+    "body": [
+      "console.log(\"🟩 ${1:element}: \", ${1:element})",
+      "$0"
+    ],
+    "description": "JS: Console Log",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "JS: Console Log — Message": {
+    "prefix": "mlog",
+    "body": [
+      "console.log(\"🟦 ${1:message}\")",
+      "$0"
+    ],
+    "description": "JS: Console Log — Message",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "JS: Try Catch": {
+    "prefix": "try",
+    "body": [
+      "try {",
+      "\t${1:code}",
+      "} catch (e) {",
+      "\tconsole.error(\"🟥 Error: \", e)",
+      "\tthrow new Error(e);",
+      "}",
+      "$0"
+    ],
+    "description": "JS: Try Catch",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "JS: Console Log — Warning": {
+    "prefix": "wlog",
+    "body": [
+      "console.warning(\"🟨 ${1:element}: \", ${1:element})",
+      "$0"
+    ],
+    "description": "JS: Console Log — Warning",
+    "scope": "html,javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "PY: Print — Message": {
+    "prefix": "mpy",
+    "body": [
+      "print(\"🟦 ${1:message}\")",
+      "$0"
+    ],
+    "description": "PY: Print — Message",
+    "scope": "python"
+  },
+  "PY: Print": {
+    "prefix": "py",
+    "body": [
+      "print(\"🟩 ${1:element}: \", ${1:element})",
+      "$0"
+    ],
+    "description": "PY: Print",
+    "scope": "python"
+  },
+  "Console Log — useEffect": {
+    "prefix": "ulog",
+    "body": [
+      "useEffect(() => {",
+      "\tconsole.log(\"🟩 ${1:element}: \", ${1:element})",
+      "}, [${1:element}])",
+      "$0"
+    ],
+    "description": "REACT: Console Log — useEffect",
+    "scope": "javascriptreact,javascript,typescriptreact,typescript"
+  },
+  "TS: Record Temp": {
+    "prefix": "rec",
+    "body": [
+      "Record<${1:string}, ${2:unknown}>",
+      "$0"
+    ],
+    "description": "TS: Record Temp",
+    "scope": "typescriptreact,typescript"
+  }
+}

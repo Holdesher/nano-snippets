@@ -1,0 +1,8 @@
+{
+	"TS: Record Temp": {
+		"prefix": "rec",
+		"body": ["Record<${1:string}, ${2:unknown}>", "$0"],
+		"description": "TS: Record Temp",
+		"scope": "typescriptreact,typescript"
+	}
+}

@@ -1,7 +1,8 @@
 {
-	"mpy": {
+	"PY: Print — Message": {
 		"prefix": "mpy",
-		"body": ["print('🟦 ${1:message}')", "$0"],
-		"description": "PY: Print — Message"
+		"body": ["print(\"🟦 ${1:message}\")", "$0"],
+		"description": "PY: Print — Message",
+		"scope": "python"
 	}
 }

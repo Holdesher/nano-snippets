@@ -13,7 +13,7 @@
 - 🟩 FEAT: snippets syntax for nestjs
 - 🟥 FIX: compiler for readme & main file snippets
 
-### [0.0.35] - October 20 2025
+### [0.0.36] - October 20 2025
 
 - 🟩 FEAT: snippets TS, JS and React
 - 🟥 FIX: syntax snippets

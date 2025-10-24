@@ -1,7 +1,8 @@
 {
-	"mlog": {
+	"JS: Console Log — Message": {
 		"prefix": "mlog",
-		"body": ["console.log('🟦 ${1:message}')", "$0"],
-		"description": "JS: Console Log — Message"
+		"body": ["console.log(\"🟦 ${1:message}\")", "$0"],
+		"description": "JS: Console Log — Message",
+		"scope": "html,javascriptreact,javascript,typescriptreact,typescript"
 	}
 }
