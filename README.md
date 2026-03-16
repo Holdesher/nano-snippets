@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/img/docs.png" alt="morion" width="240" />
+    <img src="assets/img/docs.png" alt="NanoSnippets" width="240" />
     <h1>Nano Snippets (Holdesher)</h1>
     <p>
         Snippets for various technologies and languages, taking into account all modern trends and rules.
@@ -23,7 +23,7 @@
     </a>
 </div>
 
-### Materials
+## Materials
 
 - [VSIX](https://filext.com)
 - [Marketplace](https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets)
