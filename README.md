@@ -1,10 +1,5 @@
 <div align="center">
-
-![Logo](assets/img/docs.png)
-
-</div>
-
-<div align="center">
+    <img src="assets/img/docs.png" alt="morion" width="240" />
     <h1>Nano Snippets (Holdesher)</h1>
     <p>
         Snippets for various technologies and languages, taking into account all modern trends and rules.
@@ -28,11 +23,11 @@
     </a>
 </div>
 
-### Links:
+### Materials
 
 - [VSIX](https://filext.com)
-- [License](./LICENSE)
-- [Changelog](./CHANGELOG.md)
 - [Marketplace](https://marketplace.visualstudio.com/items?itemName=kah3vich.nanosnippets)
-- [Contributing](./.github/CONTRIBUTING.md)
 - [Generate Snippets](https://snippet-generator.app)
+- [License](.github/LICENSE)
+- [Changelog](.github/CHANGELOG.md)
+- [Contributing](.github/CONTRIBUTING.md)

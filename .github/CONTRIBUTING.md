@@ -1,92 +1,56 @@
-# Contributing to Nano-Snippets
+# Contributing
 
-We're thrilled you're interested in contributing to Nano-Snippets. Whether you're fixing a bug, adding a feature, or improving our docs, every contribution makes Nano-Snippets smarter! To keep our community vibrant and welcoming, all members must adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-## Reporting Bugs or Issues
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-Bug reports help make Nano-Snippets better for everyone! Before creating a new issue, please [search existing ones](https://github.com/Holdesher/nano-snippets/issues) to avoid duplicates. When you're ready to report a bug, head over to our [issues page](https://github.com/Holdesher/nano-snippets/issues/new/choose) where you'll find a template to help you with filling out the relevant information.
+## Pull Request Process
 
-<blockquote class='warning-note'>
-     🔐 <b>Important:</b> If you discover a security vulnerability, please use the <a href="https://github.com/Holdesher/nano-snippets/security/advisories/new">Github security tool to report it privately</a>.
-</blockquote>
+1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
+2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
+3. Increase the version numbers in any examples files and the README.md to the new version that this. Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org).
+4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
-## Deciding What to Work On
+## Code of Conduct
 
-Looking for a good first contribution? Check out issues labeled ["good first issue"](https://github.com/Holdesher/nano-snippets/labels/good%20first%20issue) or ["help wanted"](https://github.com/Holdesher/nano-snippets/labels/help%20wanted). These are specifically curated for new contributors and areas where we'd love some help!
+### Our Pledge
 
-We also welcome contributions to our [documentation](https://github.com/Holdesher/nano-snippets/tree/main/docs)! Whether it's fixing typos, improving existing guides, or creating new educational content - we'd love to build a community-driven repository of resources that helps everyone get the most out of Nano-Snippets. You can start by diving into `/docs` and looking for areas that need improvement.
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-If you're planning to work on a bigger feature, please create a [feature request](https://github.com/Holdesher/nano-snippets/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop) first so we can discuss whether it aligns with Nano-Snippets's vision.
+### Our Standards
 
-## Development Setup
+Examples of behavior that contributes to creating a positive environment include:
 
-1. **VS Code Extensions**
+- Using welcoming and inclusive language.
+- Being respectful of differing viewpoints and experiences.
+- Gracefully accepting constructive criticism.
+- Focusing on what is best for the community.
+- Showing empathy towards other community members.
 
-   - When opening the project, VS Code will prompt you to install recommended extensions
-   - These extensions are required for development - please accept all installation prompts
-   - If you dismissed the prompts, you can install them manually from the Extensions panel
+Examples of unacceptable behavior by participants include:
 
-2. **Local Development**
-   - Run `npm run install:all` to install dependencies
-   - Run `npm run test` to run tests locally
-   - Before submitting PR, run `npm run format:fix` to format your code
+- The use of sexualized language or imagery and unwelcome sexual attention or advances.
+- Trolling, insulting/derogatory comments, and personal or political attacks.
+- Public or private harassment.
+- Publishing others' private information, such as a physical or electronic address, without explicit permission.
+- Other conduct which could reasonably be considered inappropriate in a professional setting.
 
-## Writing and Submitting Code
+### Our Responsibilities
 
-Anyone can contribute code to Nano-Snippets, but we ask that you follow these guidelines to ensure your contributions can be smoothly integrated:
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-1. **Keep Pull Requests Focused**
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-   - Limit PRs to a single feature or bug fix
-   - Split larger changes into smaller, related PRs
-   - Break changes into logical commits that can be reviewed independently
+### Scope
 
-2. **Code Quality**
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
 
-   - Run `npm run lint` to check code style
-   - Run `npm run format` to automatically format code
-   - All PRs must pass CI checks which include both linting and formatting
-   - Address any ESLint warnings or errors before submitting
-   - Follow TypeScript best practices and maintain type safety
+### Enforcement
 
-3. **Testing**
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [email](mailto:holdesher@ro.ru). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
-   - Add tests for new features
-   - Run `npm test` to ensure all tests pass
-   - Update existing tests if your changes affect them
-   - Include both unit tests and integration tests where appropriate
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-4. **Version Management with Changesets**
+### Attribution
 
-   - Create a changeset for any user-facing changes using `npm run changeset`
-   - Choose the appropriate version bump:
-     - `major` for breaking changes (1.0.0 → 2.0.0)
-     - `minor` for new features (1.0.0 → 1.1.0)
-     - `patch` for bug fixes (1.0.0 → 1.0.1)
-   - Write clear, descriptive changeset messages that explain the impact
-   - Documentation-only changes don't require changesets
-
-5. **Commit Guidelines**
-
-   - Write clear, descriptive commit messages
-   - Use conventional commit format (e.g., "feat:", "fix:", "docs:")
-   - Reference relevant issues in commits using #issue-number
-
-6. **Before Submitting**
-
-   - Rebase your branch on the latest main
-   - Ensure your branch builds successfully
-   - Double-check all tests are passing
-   - Review your changes for any debugging code or console logs
-
-7. **Pull Request Description**
-   - Clearly describe what your changes do
-   - Include steps to test the changes
-   - List any breaking changes
-   - Add screenshots for UI changes
-
-## Contribution Agreement
-
-By submitting a pull request, you agree that your contributions will be licensed under the same license as the project ([Apache 2.0](LICENSE)).
-
-Remember: Contributing to Nano-Snippets isn't just about writing code - it's about being part of a community that's shaping the future of AI-assisted development. Let's build something amazing together! 🚀
+This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org), version 1.4, available at [version](http://contributor-covenant.org/version/1/4).
